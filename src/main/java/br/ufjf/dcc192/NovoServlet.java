@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ice
  */
-@WebServlet(name = "NovoServlet", urlPatterns = {"/NovoServlet"})
+@WebServlet(name = "NovoServlet", urlPatterns = {"/index.html"})
 public class NovoServlet extends HttpServlet {
 
     @Override
