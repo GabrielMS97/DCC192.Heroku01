@@ -16,7 +16,7 @@
         <h1>Mensagem: ${mensagem}</h1>
         <ul>
             <c:forEach var = 'nome' items = '${nomes}'>
-                <li>${nomes}</li>>
+                <li>${nome}</li>>
                 </c:forEach>>
         </ul>>
     </body>
