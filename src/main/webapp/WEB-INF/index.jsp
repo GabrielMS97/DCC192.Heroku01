@@ -4,6 +4,7 @@
     Author     : ice
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,5 +14,10 @@
     </head>
     <body>
         <h1>Mensagem: ${mensagem}</h1>
+        <ul>
+            <c:forEach var = 'nome' items = '${nomes}'>
+                <li>${nomes}</li>>
+                </c:forEach>>
+        </ul>>
     </body>
 </html>
